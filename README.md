@@ -13,7 +13,9 @@ Coffee
 | ------------- |:-------------:| :----------------------:|------------------|
 | GET /         | empty         | render HTML index.html | serves index.html |
 | GET /coffee   | empty         | { "coffee: [...]"} A JSON response containing a list of all the coffee | Retrieves all coffee|
-| zebra stripes | are neat      |    $1 |
+| GET /coffee/id | empty         | {"coffee: [...]" A JSON response containing info about specific coffee} | Retrieves specific coffee by id |
+| GET /coffee/name | empty      | {"coffee: [...]" A JSON response containing a list of a coffee with specified name} | Retrieves all coffee with that name |
+| GET /coffee/location | empty | {"coffee:[...]" A JSON response containing a list of coffee all from the specified location} | Retrieves all coffee from a certain location |
 
 
 Order
